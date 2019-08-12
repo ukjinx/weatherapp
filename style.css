@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(0,233,255), rgb(53, 42, 206));
+    font-family: sans-serif;
+    color: white; 
+}
+
+.footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;    
+}
+
+.my-very-stylish-link{
+    color: deeppink;
+}
+
+.my-very-stylish-link:visited{
+    color: rgb(26, 241, 7);
+}
+
+.location-timezone {
+    margin-right: 5vw;
+}
+.location, .temperature {
+    height: 30vh;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 40px;
+}
